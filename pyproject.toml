@@ -38,9 +38,6 @@ include = ["src/jupyterlab_deck/_d"]
 [tool.flit.module]
 name = "jupyterlab_deck"
 
-[tool.flit.external-data]
-directory = "src/jupyterlab_deck/_d"
-
 [tool.doit]
 backend = "sqlite3"
 verbosity = 2
